@@ -1,0 +1,84 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Ubuntu+Mono');
+
+.appHeader {
+    background-color: #81009e !important;
+    color: #cccccc !important;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.appParaText {
+    font-family: 'Ubuntu Mono', monospace;
+    -webkit-animation-name: text-animation;
+    -webkit-animation-duration: 7s;
+    animation-name: text-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes text-animation {
+    0% {
+        color: #efefef;
+    }
+
+    15% {
+        color: #bfdeff;
+    }
+
+    25% {
+        color: #a8bbff;
+    }
+
+    40% {
+        color: #5673d8;
+    }
+
+    50% {
+        color: #7accc2;
+    }
+
+    65% {
+        color: #97e5bf;
+    }
+
+    75% {
+        color: #cff7e4;
+    }
+
+    100% {
+        color: #efefef;
+    }
+
+@keyframes text-animation {
+    0% {
+        color: #efefef;
+    }
+
+    15% {
+        color: #bfdeff;
+    }
+
+    25% {
+        color: #a8bbff;
+    }
+
+    40% {
+        color: #5673d8;
+    }d
+
+    50% {
+        color: #7accc2;
+    }
+
+    65% {
+        color: #97e5bf;
+    }
+
+    75% {
+        color: #cff7e4;
+    }
+
+    100% {
+        color: #efefef;
+    }
+}

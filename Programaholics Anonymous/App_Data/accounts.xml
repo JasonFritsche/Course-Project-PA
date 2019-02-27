@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<dsAccounts xmlns="http://tempuri.org/dsAccounts.xsd">
+  <tblCompletedApplications>
+    <UserID>16</UserID>
+    <ApplicationName>SuperDuper</ApplicationName>
+    <DateCompleted>08/20/1999</DateCompleted>
+    <ProgrammingLanguage>python</ProgrammingLanguage>
+  </tblCompletedApplications>
+</dsAccounts>
